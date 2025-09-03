@@ -1,0 +1,18 @@
+.contract-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #ccc;
+}
+
+.contract-me img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+}
+
+.contract-me img:hover {
+  transform: scale(1.1);
+}

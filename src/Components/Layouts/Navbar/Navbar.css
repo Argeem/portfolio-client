@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: #f7f7f2;
+  font-size: 24px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-logo span {
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+}
+
+.nav-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.menu-bar li {
+  margin: 0 1rem;
+}
+
+.menu-bar li a {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #333;
+  text-decoration: none;
+}
