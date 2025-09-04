@@ -7,7 +7,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const menuBar: MenuItem[] = [
     { label: "Home", link: "/" },
-    { label: "About me", link: "/about" },
+    { label: "About me", link: "/about-me" },
     { label: "Projects", link: "/projects" },
     { label: "Resume", link: "/resume" },
     { label: "Contact", link: "/contact" },
