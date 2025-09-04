@@ -2,9 +2,9 @@ import facebook_icon from "../../../assets/contract-icon/facebook.png";
 import instagram_icon from "../../../assets/contract-icon/instagram.png";
 import github_icon from "../../../assets/contract-icon/github.png";
 import linkedin_icon from "../../../assets/contract-icon/linkedin.png";
-import "./ContractMe.css";
+import "./ContactMe.css";
 
-const ContractMe = () => {
+const ContactMe = () => {
   return (
     <div className="contract-me">
       <img src={facebook_icon} alt="Facebook" />
@@ -15,4 +15,4 @@ const ContractMe = () => {
   );
 };
 
-export default ContractMe;
+export default ContactMe;

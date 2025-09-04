@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import MainLayout from "./Components/Layouts/MainLayout";
-import Hero from "./Pages/Hero";
+import Home from "./Pages/Home";
 import AboutMe from "./Pages/AboutMe";
 import Projects from "./Pages/Projects";
 import Resume from "./Pages/Resume";
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <MainLayout />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
