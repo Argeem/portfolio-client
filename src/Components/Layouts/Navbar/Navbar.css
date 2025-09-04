@@ -1,16 +1,24 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
   padding: 1rem;
+  background: white;
   color: #f7f7f2;
   font-size: 24px;
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.nav-logo-link {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 
 .nav-logo span {

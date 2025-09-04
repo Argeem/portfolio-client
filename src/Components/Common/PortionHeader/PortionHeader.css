@@ -1,0 +1,26 @@
+.portion-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.portion-header h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.portion-header hr {
+  position: relative;
+  border: none;
+  border-top: 3px solid #656565;
+  margin: 1rem 0;
+  width: 80%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-import type { MenuItem } from "../../Types/Navbar/menu-bar.type";
 import profile_logo from "../../../assets/profile.jpg";
 import "./Navbar.css";
+import type { MenuItem } from "../../../Types/Navbar/menu-bar.type";
 
 const Navbar = () => {
   const menuBar: MenuItem[] = [
@@ -15,10 +15,12 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="nav-logo">
-        <img src={profile_logo} alt="" />
-        <span>Argeem</span>
-      </div>
+      <Link className="nav-logo-link" to="/">
+        <div className="nav-logo">
+          <img src={profile_logo} alt="" />
+          <span>Argeem</span>
+        </div>
+      </Link>
       <ul className="menu-bar">
         {menuBar.map((item) => (
           <li key={item.label}>
