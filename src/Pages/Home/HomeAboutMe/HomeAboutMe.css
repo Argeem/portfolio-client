@@ -1,0 +1,42 @@
+.home-about-me {
+  padding: 40px 80px;
+}
+
+.about-me {
+  display: flex;
+  gap: 1rem;
+}
+
+.who-am-i,
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 30vh;
+}
+
+.who-am-i {
+  width: 45%;
+}
+
+.skill ul {
+  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill ul li {
+  list-style: none;
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.skill ul li:hover {
+  background: #e0e0e0;
+}

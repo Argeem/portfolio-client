@@ -1,0 +1,41 @@
+.home-projects {
+  text-align: center;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-list {
+  padding-bottom: 10px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px !important;
+  color: #333 !important;
+  opacity: 0.8;
+}
+
+.slick-prev {
+  left: -50px !important;
+}
+
+.slick-next {
+  right: -50px !important;
+}
+
+.slick-dots li button:before {
+  color: #ccc !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #333 !important;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  opacity: 1 !important;
+}
