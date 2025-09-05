@@ -40,6 +40,8 @@ const HomeProjects = () => {
 
   const settings = {
     dots: true,
+    centerMode: true,
+    centerPadding: "60px",
     infinite: true,
     speed: 500,
     slidesToShow: 3,
